@@ -1,0 +1,96 @@
+<!DOCTYPEhtml>
+    <html lang="en">
+    <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--For using Bootstrap we need to include 3 links inside the head section of html.-->
+
+<head>
+    <title> Personal Website</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Container will add a margin-left, margin-right, padding-right and padding-left to all the elements inside it.-->
+        <section id="apps">
+            <h1> My Apps</h1>
+            <div class="line">
+            </div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/e8GpWnbLMrmSZ12S0X4scl2o5YJ7R9yTfgEI_NdCtBU/embed"></iframe>
+
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/drXbOyesUtI3tYa0HnRggMwWXVC1SZA2N6Z1AaIbnRI/embed"></iframe>
+        </section>
+
+
+
+
+
+        <!-- <section id="games">-->
+        <h1> Click on the games below to play</h1>
+        <!--the id = My Carousel has been given just to show the effect of a Carousel ( a SLIDESHOW).. Any id can be used-->
+        <!--the class carousel slide helps to add a CSS transition and animation effect, which makes the items move when the next or previous buttons are clicked.-->
+        <!--data-ride="carousel" tells Bootstrap to begin animating the carousel immediately when the page loads.-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <!--class="carousel-inner" says that all the contents of the slides will be inside this div-->
+                <div class="item active">
+                    <!-- we will mention the first slide we need to show as soon as the page loads inside this class "item active"-->
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/L0u4TQGS4w9gMcxbcjHi7Nobp8ah47ZPbk6v0lzHRKM" target="_blank">
+                            <img id="imagewinnie" src="winnie.png">
+                        </a>
+                        <div class="carousel-content">
+                            <!-- carousel-content means it will contain the text content of the respective slide-->
+                            <p> Winnie The Pooh's Honey Catastrophe</p>
+                        </div>
+                    </center>
+
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/CLILJH0FH6Tjn6tmXgNPEAxbW5ZtrUOdKaFpuTIA4po" target="_blank">
+                            <img id="image1" src="dragon.jpeg">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Dragon Attack</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!--closing tag for carousel inner-->
+
+
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <!--left says it should be placed on the left of the screen. carousel-control gives the style to the anchor tag. in href we pass the id of the slideshow for the reference so that this anchor tag knows which window to refer to when its clicked.
+data-slide="prev" This gives the functionality of getting the previous slide.-->
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        <!--closing tag of carousel slide-->
+
+        <!--</section>-->
+
+        <section id="chatbot">
+            <h1> Chatbot</h1>
+            <div class="line">
+            </div>
+            <br><br>
+            <iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/5b964210-102a-47d6-93af-c2ccf3a7fa44">
+            </iframe>
+
+        </section>
+
+
+
+
+
+
+
+
+    </div>
+    <!--closing tag of div class container-->
+</body></html>

@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+        
+}
+#apps{
+background: linear-gradient(red 0%, orange 50%, yellow 100%);
+    height:800px;
+    padding-top:10px;
+   padding-left:60px;
+    
+}
+.line{
+    background-color: white;
+    height:10px;
+        width:250px;
+    margin:auto;
+
+}
+
+#imagewinnie{
+height: 300px;
+    width:400px;
+     border-color: black;
+    border-style:solid;
+    
+}
+#image1{
+        height: 300px;
+    width:400px;
+   border-color: black;
+    border-style:solid;
+    
+}
+
+/*
+#games{
+background: linear-gradient(lime 0%, aqua 100%);
+height:500px;
+padding-top:10px;
+   padding-left:10px;
+}
+*/
+#myCarousel{
+    background: linear-gradient(lime 0%, aqua 100%);
+height:500px;
+padding-top:50px;
+   padding-left:10px;
+}
+
+#myCarousel p{
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+}
+#chatbot{
+    background: linear-gradient(blue 0%, purple 100%);
+height:850;
+padding-top:10px;
+   padding-left:10px;
+    }
+/*
+img:hover{
+    transform: scale(0.9);
+}
+img{
+    transition: transform 0.2s;
+}*/
